@@ -4,7 +4,9 @@ Implemented IP Method for NSDP proposed by Yamashita, Yabe, and Harada (2012) an
 We implemented an interior point method for solving the following nonlinear semidefinite programming problem (NSDP):
 
 > minimize    f(x) (x is n-dimensional real vector)
+> 
 > subject to  g(x)≧0, h(x)=0,
+> 
 >             X(x)\succeq O (i.e., X(x) is positive semidefinite)
 
 Here, all functions f, g, h, and X are twice continuously differentiable, and the matrix-valued function X is the mapping from R^n to the space of m-dimensional symmetric matrices.
