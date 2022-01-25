@@ -6,7 +6,7 @@ We implemented an interior point method for solving the following nonlinear semi
 ```
 minimize    f(x) (x is n-dimensional real vector) 
 subject to  g(x)≧0, h(x)=0,
-            X(x)\succeq O (i.e., X(x) is positive semidefinite)
+            X(x)\succeq 0 (i.e., X(x) is positive semidefinite)
 ```
 
 Here, all functions f, g, h, and X are twice continuously differentiable, and the matrix-valued function X is the mapping from R^n to the space of m-dimensional symmetric matrices.
