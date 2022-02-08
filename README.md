@@ -16,11 +16,14 @@ The program is originally coded for our latest study, Distributionally Robust Ex
 
 Perhaps our code may have inefficient steps, please contact me when you noticed them.
 
+The test program is now under development, we will release soon.
+
 Thank you!
+
 
 ---
 
-### Bibliography
+### References
 
 [1] Yamashita, H., Yabe, H. & Harada, K. A primal–dual interior point method for nonlinear semidefinite programming. Math. Program. 135, 89–121 (2012). 
 
