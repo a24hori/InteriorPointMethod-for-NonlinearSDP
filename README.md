@@ -3,12 +3,14 @@ Implementation of a primal-dual interior point method for nonlinear semidefinite
 
 We implemented an interior point method for solving the following nonlinear semidefinite programming problem (NSDP):
 
-```
-minimize    f(x) (x is n-dimensional real vector) 
-subject to  g(x)≧0, h(x)=0,
-            X(x)\succeq 0 (i.e., X(x) is positive semidefinite)
-            t(x) \in K (K is a second-order cone)
-```
+$$
+\begin{aligned}
+\underset{x\in\Bbb R^n}{\text{min}} \quad& f(x) \\
+\text{s.t.} \quad&  g(x)≧0,\ h(x)=0, \\
+            \quad & X(x)\succeq 0\ \  \text{(i.e., $X(x)$ is positive semidefinite)} \\
+            \quad & t(x) \in \mathcal{K}\ \ \text{($\mathcal{K}$ is a second-order cone)}
+\end{aligned}
+$$
 
 Here, all functions f, g, h, t and X are twice continuously differentiable, and the matrix-valued function X is the mapping from R^n to the space of m-dimensional symmetric matrices.
 
